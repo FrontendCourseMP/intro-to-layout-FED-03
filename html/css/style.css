@@ -1,0 +1,177 @@
+/* roboto-300 - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900 - cyrillic_cyrillic-ext_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --white: white;
+    --blue: #1A4D70;
+    --orange: orange;
+    --background: #EFEFEF;
+    --background2: #777;
+    --background3: rgb(185, 137, 35);
+    --background4: blue;
+}
+
+header {
+    background-color: var(--blue);
+}
+
+.main {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 32px;
+}
+
+.mainbg {
+    background-color: var(--background3)
+}
+
+h2 {
+    color: var(--blue);
+}
+
+h3 {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 32px;
+}
+
+
+h4 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+
+.text {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.info {
+    color: var(--blue);
+    src: Roboto;
+    font-size: 16px;
+}
+
+.info1 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.button {
+    background-color: var(--orange);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: var(--orange);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+
+
+.company {
+    color: var(--blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+.company1 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.successes {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+
+.knopki {
+    background-color: var(--background);
+}
+
+.bgfn {
+    background-color: var(--background);
+}
+
+li {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.about {
+    background-color: var(--orange);
+}
+
+.about2 {
+    background-color: var(--background2)
+}
+
+hr {
+    color: var(--orange);
+}
+
+.bginfo {
+    background-color: var(--background4);
+}
